@@ -5,6 +5,8 @@ class Task {
     this.name = name;
     this.priority = priority;
     this.listId = listId;
-    this.taskId = ++taskId
+    this.taskId = ++taskId;
+    store.task.push(this)
   }
+
 }

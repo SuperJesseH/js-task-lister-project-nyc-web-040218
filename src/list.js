@@ -6,5 +6,4 @@ class List {
     this.id = ++listId
     store.list.push(this)
   }
-
 }
